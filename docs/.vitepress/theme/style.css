@@ -1,6 +1,67 @@
 /* ===== Learn Harness Engineering — Custom VitePress Styles ===== */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap');
 
+/* ---------- Vazirmatn (Persian/fa locale font) ---------- */
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-800.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('./assets/fonts/vazirmatn/Vazirmatn-900.woff2') format('woff2');
+}
+
+html[lang="fa"] {
+  --vp-font-family-base: 'Vazirmatn', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+html[lang="fa"] h1,
+html[lang="fa"] h2,
+html[lang="fa"] .VPHero .name,
+html[lang="fa"] .VPHero .text {
+  font-family: 'Vazirmatn', ui-sans-serif, system-ui, sans-serif;
+}
+
 /* ---------- CSS Variables (Light) ---------- */
 :root {
   /* Anthropic / Claude Docs Style Colors */

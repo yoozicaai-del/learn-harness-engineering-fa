@@ -773,6 +773,55 @@ const ukHarnessDesignItems = [
   { text: "Розбір дизайну DeepSeek Harness", link: "/uk/harness-designs/deepseek/" }
 ];
 
+const faLectureItems = [
+  { text: "خوش‌آمدید", link: "/fa/" },
+  { text: "مدل‌های قدرتمند به معنای اجرای قابل‌اطمینان نیست", link: "/fa/lectures/lecture-01-why-capable-agents-still-fail/" },
+  { text: "هارنس در واقعیت چیست", link: "/fa/lectures/lecture-02-what-a-harness-actually-is/" },
+  { text: "تبدیل ریپازیتوری به تنها منبع حقیقت", link: "/fa/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/" },
+  { text: "تقسیم دستورالعمل‌ها در فایل‌های جداگانه", link: "/fa/lectures/lecture-04-why-one-giant-instruction-file-fails/" },
+  { text: "نگاه‌داشتن متن در طول جلسات", link: "/fa/lectures/lecture-05-why-long-running-tasks-lose-continuity/" },
+  { text: "مقدمه‌سازی ایجنت قبل از هر جلسه‌ی کاری", link: "/fa/lectures/lecture-06-why-initialization-needs-its-own-phase/" },
+  { text: "رسم مرزهای وضوح‌دار کار برای ایجنت‌ها", link: "/fa/lectures/lecture-07-why-agents-overreach-and-under-finish/" },
+  { text: "استفاده از فهرست قابلیت‌ها برای محدود کردن کار ایجنت", link: "/fa/lectures/lecture-08-why-feature-lists-are-harness-primitives/" },
+  { text: "جلوگیری از اعلام زودهنگام پیروزی توسط ایجنت‌ها", link: "/fa/lectures/lecture-09-why-agents-declare-victory-too-early/" },
+  { text: "فقط یک اجرای کامل خط‌لوله راستی‌آزمایی واقعی است", link: "/fa/lectures/lecture-10-why-end-to-end-testing-changes-results/" },
+  { text: "ایجاد رصدپذیری در زمان اجرای ایجنت", link: "/fa/lectures/lecture-11-why-observability-belongs-inside-the-harness/" },
+  { text: "تحویل پاک در انتهای هر جلسه", link: "/fa/lectures/lecture-12-why-every-session-must-leave-a-clean-state/" },
+  { text: "از پرامپت دستی تا حلقه‌های خودمختار", link: "/fa/lectures/lecture-13-loop-engineering/" },
+  { text: "از حلقه‌های منفرد تا مهندسی گراف", link: "/fa/lectures/lecture-14-graph-engineering/" }
+];
+
+const faProjectItems = [
+  { text: "خوش‌آمدید", link: "/fa/projects/" },
+  { text: "فقط پرامپت در مقابل قوانین اول: تفاوت چقدر است", link: "/fa/projects/project-01-baseline-vs-minimal-harness/" },
+  { text: "فضای کاری قابل‌خواندن برای ایجنت", link: "/fa/projects/project-02-agent-readable-workspace/" },
+  { text: "تداوم در طول چند جلسه", link: "/fa/projects/project-03-multi-session-continuity/" },
+  { text: "بازخورد زمان‌اجرا و کنترل دامنه", link: "/fa/projects/project-04-incremental-indexing/" },
+  { text: "راستی‌آزمایی مبتنی بر شواهد و تفکیک نقش‌ها", link: "/fa/projects/project-05-grounded-qa-verification/" },
+  { text: "ساخت یک هارنس کامل (پروژه‌ی پایانی)", link: "/fa/projects/project-06-runtime-observability-and-debugging/" },
+  { text: "ساخت اولین حلقه‌ی خودکار شما", link: "/fa/projects/project-07-loop-engineering-first-loop/" },
+  { text: "رسم گراف جریان کار خود", link: "/fa/projects/project-08-graph-engineering-first-graph/" }
+];
+
+const faResourceItems = [
+  { text: "نمای کلی", link: "/fa/resources/" },
+  { text: "الگوها", link: "/fa/resources/templates/" },
+  { text: "مرجع", link: "/fa/resources/reference/" },
+  { text: "بسته‌ی پیشرفته‌ی OpenAI", link: "/fa/resources/openai-advanced/" },
+];
+
+const faSkillItems = [
+  { text: "نمای کلی مهارت‌ها", link: "/fa/skills/" },
+];
+
+const faHarnessDesignItems = [
+  { text: "تحلیل طراحی‌های هارنس‌های پیشرو", link: "/fa/harness-designs/" },
+  { text: "تحلیل طراحی هارنس Pi", link: "/fa/harness-designs/pi/" },
+  { text: "تحلیل طراحی هارنس Claude Code", link: "/fa/harness-designs/claude-code/" },
+  { text: "تحلیل طراحی هارنس Codex", link: "/fa/harness-designs/codex/" },
+  { text: "تحلیل طراحی DeepSeek Harness", link: "/fa/harness-designs/deepseek/" }
+];
+
 const jaSourceItems = { lectures: jaLectureItems, projects: jaProjectItems, resources: jaResourceItems, skills: jaSkillItems, harnessDesigns: jaHarnessDesignItems };
 const esSourceItems = { lectures: esLectureItems, projects: esProjectItems, resources: esResourceItems, skills: esSkillItems, harnessDesigns: esHarnessDesignItems };
 const frSourceItems = { lectures: frLectureItems, projects: frProjectItems, resources: frResourceItems, skills: frSkillItems, harnessDesigns: frHarnessDesignItems };
@@ -781,12 +830,13 @@ const arSourceItems = { lectures: arLectureItems, projects: arProjectItems, reso
 const zhTWSourceItems = { lectures: zhTWLectureItems, projects: zhTWProjectItems, resources: zhTWResourceItems, skills: zhTWSkillItems, harnessDesigns: zhTWHarnessDesignItems };
 const trSourceItems = { lectures: trLectureItems, projects: trProjectItems, resources: trResourceItems, skills: trSkillItems, harnessDesigns: trHarnessDesignItems };
 const ukSourceItems = { lectures: ukLectureItems, projects: ukProjectItems, resources: ukResourceItems, skills: ukSkillItems, harnessDesigns: ukHarnessDesignItems };
+const faSourceItems = { lectures: faLectureItems, projects: faProjectItems, resources: faResourceItems, skills: faSkillItems, harnessDesigns: faHarnessDesignItems };
 
 const relinkItems = (items: Array<{ text: string; link: string }>, locale: string) =>
   items.map((item) => ({
     ...item,
     link: item.link.replace(
-      /^\/(en|zh|vi|ko|uz|ru|ja|es|fr|de|ar|zh-TW|tr|pt-BR|uk)\//,
+      /^\/(en|zh|vi|ko|uz|ru|ja|es|fr|de|ar|zh-TW|tr|pt-BR|uk|fa)\//,
       `/${locale}/`,
     ),
   }));
@@ -1497,6 +1547,30 @@ export default withMermaid(
           darkModeSwitch: "Тема",
           lightModeSwitchTitle: "Перемкнути на світлу тему",
           darkModeSwitchTitle: "Перемкнути на темну тему",
+        }),
+      },
+      fa: {
+        label: "فارسی",
+        lang: "fa",
+        dir: "rtl",
+        link: "/fa/",
+        themeConfig: createLocaleTheme("fa", faSourceItems, {
+          lectures: "درس‌ها",
+          projects: "پروژه‌ها",
+          resources: "کتابخانه",
+          skills: "مهارت‌ها",
+          resourceLibrary: "کتابخانه‌ی منابع",
+          harnessDesign: "تحلیل هارنس‌های پیشرو",
+          tryHarness: "امتحان هارنس ↗",
+          outline: "در این صفحه",
+          prev: "قبلی",
+          next: "بعدی",
+          lastUpdated: "آخرین به‌روزرسانی",
+          returnToTop: "بازگشت به بالا",
+          sidebarMenu: "منو",
+          darkModeSwitch: "پوسته",
+          lightModeSwitchTitle: "تغییر به حالت روشن",
+          darkModeSwitchTitle: "تغییر به حالت تاریک",
         }),
       },
     },
